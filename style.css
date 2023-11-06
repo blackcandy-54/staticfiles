@@ -34,12 +34,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    box-sizing: border-box;
 }
 
 #container {
     animation: fadeInUp 0.5s ease-out;
     padding: 10px;
+    box-sizing: border-box; 
+    margin-top: 60px;
 }
 
 #video-container {
@@ -113,15 +115,11 @@ button.vlc-button:hover {
 }
 
 @media screen and (max-width: 600px) {
-    #video-container {
-        width: 100%;
-    }
-
-    #info-container {
-        width: 100%;
-    }
-
     header {
         font-size: 18px;
+    }
+
+    #container {
+        margin-top: 40px; 
     }
 }
