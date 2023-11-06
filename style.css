@@ -65,6 +65,7 @@ header {
     text-align: left;
     color: #ddd;
     line-height: 1.6;
+    border-radius: 25px;
 }
 
 h4 {
