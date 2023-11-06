@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="verification" content="KH986GH58619M1VXASOM5BVBE1DWO1PD" />
+    <title>{}</title>
+    <link rel='stylesheet' type='text/css' href='https://blackcandy-54.github.io/staticfiles/style.css'>
+
+</head>
+
+<body>
+    <header>
+        STREAM-X
+    </header>
+    <div id="container">
+        <div id="video-container">
+            <video id="videoPlayer" width="100%" controls autoplay muted>
+                <source src="{}" type="video/mp4">
+            </video>
+        </div>
+        <div id="info-container">
+            <h4>File Info:</h4>
+            <span id="file-name">Name: {}</span>
+            <span id="file-size">Size: null</span>
+
+            <h4>Play in VLC (No Ads):</h4>
+            <button class="vlc-button" onclick="playInVLC()">VLC Player</button>
+            <h4>Disclaimer :</h4>
+            <p>Stream X site provides service to convert a normal file link to streamable links. This website does
+                not provide any storage/dissemination function. You can report the video that contains a problem like
+                copyright, porn, violence, etc. we don't support and provide service for this kind of content.</p>
+        </div>
+    </div>
+    <script src="https://blackcandy-54.github.io/staticfiles/script.js">  </script>
+</body>
+
+</html>￼Enter
