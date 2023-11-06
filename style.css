@@ -34,18 +34,12 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    box-sizing: border-box;
-    z-index: 2; 
+    z-index: 2;
 }
 
 #container {
     animation: fadeInUp 0.5s ease-out;
     padding: 10px;
-    box-sizing: border-box;
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
 }
 
 #video-container {
@@ -56,7 +50,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 100%;
+    width: 60%;
     z-index: 1;
 }
 
@@ -66,8 +60,7 @@ header {
     backdrop-filter: blur(15px);
     padding: 15px;
     margin: 15px auto 0 auto;
-    width: 100%;
-    margin-top: 15px;
+    width: 60%;
     z-index: 2;
     text-align: left;
     color: #ddd;
@@ -120,12 +113,15 @@ button.vlc-button:hover {
 }
 
 @media screen and (max-width: 600px) {
+    #video-container {
+        width: 100%;
+    }
+
+    #info-container {
+        width: 100%;
+    }
+
     header {
         font-size: 18px;
     }
-
-    #container {
-        margin-top: 40px;
-    }
 }
-
